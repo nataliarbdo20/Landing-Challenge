@@ -1,5 +1,34 @@
-body{
+@import "./header.scss";
+@import "./slideshow.scss";
+@import "./sec1.scss";
+@import "./sec2.scss";
+@import "./sec3.scss";
+@import "./sec4.scss";
+@import "./sec5.scss";
+@import "./menu.scss";
 
+:root{
 
- border: 10px solid green;
+    --wrapperSpace:1.8em;
 }
+
+
+body{
+    margin:0;
+font-family:  'Fredoka One', cursive;
+
+}
+
+@media screen and( min-width : 640px ) { 
+    body{
+      background-color: blue;
+    }
+  }
+
+  @media screen and( min-width : 1460px ) { 
+    body{
+      background-color: blue;
+    }
+  }
+
+

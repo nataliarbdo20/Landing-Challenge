@@ -1,0 +1,158 @@
+.sec4 {
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+ 
+  
+  .title-blue {
+    color:#00b7f2;
+    font-size: 32px;
+    border-top:  2px solid #e3e3e3;
+    border-bottom: 2px solid #e3e3e3;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    padding-bottom: 30px;
+  }
+
+  .title-blue2 {
+    color:#373737;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.1em;
+    border-top:  1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 35px;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    padding-bottom: 30px;
+  }
+  
+  .drink {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+  
+  .drink2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+  
+  .drink img {
+    width: 280px;
+  }
+  
+  .drink2 img {
+    width: 500px;
+    margin-bottom: 80px;
+  }
+  
+  .texts {
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: -280px;
+    padding-bottom: 100px;
+  }
+  
+  
+  .wrapper {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+
+  .wrapper2 {
+    width: 100%;
+  }
+  .title-black {
+    color: #373737;
+    font-size: 1.5em;
+   
+  }
+  
+  .title-black2 {
+    color: #373737;
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+  }
+  .copy3{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 2em;
+
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       color:black;
+   }
+  .container3 {
+    margin: 0;
+  }
+  .buttonS{
+    margin-top: -90px;
+    position: relative;
+    background-color: #000;
+    width: 350px;
+    border-radius: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    height: 60px;
+  }
+  
+  #beaches{
+    margin-top: 115px;
+    margin-bottom: 40px;
+  }
+
+  #tit1{
+    font-family: 'Nunito', sans-serif;
+    color: #373737;
+    font-size: 4em;
+    margin-bottom: 15px;
+    line-height: 1;
+  }
+
+  #tit2{
+    font-family: 'Nunito', sans-serif;
+    color: #373737;
+    padding-left: 115px;
+    padding-right: 115px;
+    font-size: 1.8em;
+    line-height: 1.5;
+
+  }
+  .container3 img {
+    width: 100%;
+  }
+  /*# sourceMappingURL=sec4.css.map */
+ 
+
+
+.btnB {
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid #D9EDFF;
+  color: white;
+  font-size: 2.8em;
+  text-align: center;
+  padding: 0 22px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background: #00b7f2;
+  width: 500px;
+  height: 80px;
+ margin-top: 35px;
+}
+

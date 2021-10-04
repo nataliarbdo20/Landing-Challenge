@@ -1,0 +1,183 @@
+.hero {
+   margin:0;
+    text-align: center;
+    overflow: hidden;
+ 
+}
+.hero{
+  &__image {
+    height: 1390px;
+    background: url("../images/Vector\ Smart\ Object.png") center 343px no-repeat, url("../images/tag-mobile.png") center top no-repeat;
+    background-size: 475px 605px,100% 1550px;
+    margin: 0 calc(-1 * val(--wrapperSpace));
+    padding-left: 95px;
+    padding-right: 95px;
+  }
+  
+}
+
+
+//.wrapper{
+  //padding: 0;
+//}
+
+.title{
+  &__h1{
+    margin:0;
+    padding-top: 70px;
+    color: white;
+    line-height: 1.5;
+    font-size: 27px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+} 
+
+.title{
+  &__h4{
+    margin:0;
+    padding-top: 78px;
+    padding-bottom: 25px;
+    color: #00b7f2;
+    line-height: 1.5;
+    font-size: 3em;
+    font-family:'Fredoka One', cursive;
+  }
+  
+} 
+.title{
+  &__h2{
+    color: white;
+    font-size: 3em;
+    font-family: 'Fredoka One', cursive;
+    font-size: 4.1em;
+    line-height: 1.05;
+    margin: 0;
+  }
+}
+
+.title{
+
+  &__h3{
+    color: #ab8345;
+    font-size: 2.20em;
+    font-family: 'Caveat', cursive;
+    line-height: 1.1;
+ 
+  }
+}
+
+#stars{
+
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+
+
+@media screen and (min-width: 746px) {
+
+  .hero{
+
+    &__image {
+      height: 1390px;
+      background: url("../images/Vector\ Smart\ Object.png") center 343px no-repeat, url("../images/layer\ tablet.png") center top no-repeat;
+      background-size: 475px 605px,100% 1550px;
+      margin: 0 calc(-1 * val(--wrapperSpace));
+      padding-left: 95px;
+      padding-right: 95px;
+    }
+}
+ 
+  .hero{
+    &__h1{
+      margin:0;
+      padding-top: 70px;
+      color: white;
+      line-height: 1.5;
+      font-size: 27px;
+      font-family: 'Open Sans', sans-serif;
+
+    }
+  }
+  
+  #letter1{
+    position: relative;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -50px;
+    left: 20px;
+  }
+  #letter2{
+    position: relative;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    left: 20px;
+    margin-top: -20px;
+  }
+  .wrapper2 {
+    display: flex;
+    width: 100%;
+    display: flex;
+}
+
+.wrapper2{
+  .drink2 img {
+    width: 300px;
+    margin-bottom: 80px;
+  }
+}
+
+
+.title-black2 {
+  color: #373737;
+  margin-top: 90px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.9em;
+  font-weight: bold;
+}
+
+.copy3 {
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 1.5em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+  .hero{
+
+    &__image {
+      height: 1390px;
+      background: url("../images/Vector\ Smart\ Object.png") center 343px no-repeat, url("../images/Layer\ 12619.png") center top no-repeat;
+      background-size: 475px 605px,100% 1550px;
+      margin: 0 calc(-1 * val(--wrapperSpace));
+      padding-left: 95px;
+      padding-right: 95px;
+    }
+}
+ 
+  .hero{
+    &__h1{
+      margin:0;
+      padding-top: 70px;
+      color: white;
+      line-height: 1.5;
+      font-size: 27px;
+      font-family: 'Open Sans', sans-serif;
+
+    }
+  }
+.container2{ .wrapper {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+}}
+ 
+
+}
